@@ -1,7 +1,7 @@
 {
-  "name": "basic-heroku-app",
+  "name": "basic-vercel-app",
   "version": "0.1.0",
-  "description": "A small app for learning how to push an app to Heroku",
+  "description": "A small app for learning how to push an app to Vercel",
   "main": "server/index.js",
   "engines": {
     "node": "8.x.x",
@@ -29,7 +29,7 @@
     "lodash": "^4.15.0",
     "lodash-webpack-plugin": "^0.10.2",
     "morgan": "^1.8.1",
-    "nightmare": "^3.0.1",
+    "playwright": "^1.55.0",
     "prop-types": "^15.5.10",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
