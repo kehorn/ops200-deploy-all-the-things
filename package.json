@@ -4,8 +4,8 @@
   "description": "A small app for learning how to push an app to Vercel",
   "main": "server/index.js",
   "engines": {
-    "node": "8.x.x",
-    "npm": "5.x.x"
+    "node": "22.x",
+    "npm": "11.x.x"
   },
   "scripts": {
     "build": "webpack",
