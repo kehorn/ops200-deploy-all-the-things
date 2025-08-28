@@ -7,5 +7,5 @@ app.use(express.static("dist"));
 app.use(express.static("public"));
 
 module.exports = (req, res) => {
-  app(req, res);
+  app.handle(req, res);
 };
